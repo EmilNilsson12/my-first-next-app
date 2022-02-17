@@ -9,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "ably": "^1.2.17",
         "next": "11.1.2",
         "prettier": "^2.4.1",
         "react": "17.0.2",
