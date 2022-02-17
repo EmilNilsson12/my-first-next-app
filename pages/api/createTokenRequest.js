@@ -5,5 +5,5 @@ export default async function handler(req, res) {
     const tokenRequestData = await client.auth.createTokenRequest({
         clientId: 'ably-nextjs-demo',
     });
-    res.status(200).json(tokenRequestData);
+    res.status(200).send(JSON.stringify(tokenRequestData, null, 2));
 }
