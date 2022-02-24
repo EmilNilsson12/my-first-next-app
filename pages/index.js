@@ -24,29 +24,10 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="https://nextjs.org">Next.js!</a>
+                    Welcome to <a href="https://nextjs.org">Next.js!</a> chat-app built with Ably hosted on <a href="https://vercel.com">Vercel</a>
                 </h1>
-
-                <p className={styles.description}>
-                    Get started by editing{' '}
-                    <code className={styles.code}>pages/index.js</code>
-                </p>
-
+<hr />
                 <AblyChatComponent />
-                <div className={styles.grid}>
-                    <Link href="/cars">
-                        <a className={styles.card}>
-                            <h2>My page</h2>
-                            <p>I made this page</p>
-                        </a>
-                    </Link>
-                    <Link href="/cars">
-                        <a className={styles.card}>
-                            <h2>My page</h2>
-                            <p>I made this page</p>
-                        </a>
-                    </Link>
-                </div>
             </main>
 
             <footer className={styles.footer}>
