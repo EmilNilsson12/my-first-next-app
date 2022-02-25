@@ -24,9 +24,11 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="https://nextjs.org">Next.js!</a> chat-app built with Ably hosted on <a href="https://vercel.com">Vercel</a>
+                    Welcome to <a href="https://nextjs.org">Next.js!</a>{' '}
+                    chat-app built with Ably hosted on{' '}
+                    <a href="https://vercel.com">Vercel</a>
                 </h1>
-<hr />
+                <hr />
                 <AblyChatComponent />
             </main>
 
